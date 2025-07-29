@@ -45,7 +45,7 @@ This project is a minimal Python-based microservice that automates the deploymen
 ### Running the Microservice
 1. Start the Flask application
    ```bash
-      python microservice.py
+      python kd-app.py
    ```
 ### Usage
 1. Deploy the Pod
@@ -61,7 +61,7 @@ This project is a minimal Python-based microservice that automates the deploymen
 ### Testing
 To run the tests, execute the following command:
 ```bash
-   python -m unittest test_microservice.py
+   python -m unittest test-kd-app.py.py
 ```
 ### Notes
 - Ensure your Kubernetes cluster is accessible and configured correctly.
